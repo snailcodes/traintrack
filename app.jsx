@@ -1,8 +1,6 @@
 const { useState, useEffect } = React;
 
 function TrainerApp() {
-
-function TrainerApp() {
   const [clients, setClients]   = useState([]);
   const [sessions, setSessions] = useState({});
   const [view, setView]         = useState('clients'); // clients | addClient | session
